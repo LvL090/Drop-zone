@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 
-
+import { RiFacebookFill} from "react-icons/ri";
+import { RiGoogleFill } from "react-icons/ri";
+import { RiTwitterFill } from "react-icons/ri";
 
 const Login = () => {
     const navigate = useNavigate();
@@ -8,7 +10,7 @@ const Login = () => {
     
     return (
     <div className='h-screen min-h-screen max-h-screen bg-gradient-to-b from-gray-900 via-green-900 to-gray-900 flex justify-center items-center p-4'>
-        <div className='bg-white shadow w-full p-4 rounded shadow-2xl text-gray-700 sm:w-96'>
+        <div className='bg-white shadow w-full p-4 rounded shadow-2xl text-gray-700 bg-gradient-to-b from-white via-green-400 to-gray-300 sm:w-96'>
             <div className='flex justify-end'>
                 <img src='https://www.ns-logo.com/wp-content/uploads/2020/07/logo-icon-png-8.png' alt="" class="w-8"/> 
              </div>
@@ -39,13 +41,13 @@ const Login = () => {
 
                 <div className='mt-8 relative flex justify-around'>
                     <div class="bg-blue-800 h-12 w-12 flex justify-center items-center rounded-full text-white">
-                        <i class="fab fa-facebook text-3xl"></i>
+                        <RiFacebookFill className='text-white h-8 w-8'/>
                     </div>
                         <div class="bg-blue-500 h-12 w-12 flex justify-center items-center rounded-full text-white">
-                            <i class="fab fa-twitter text-3xl"></i>
+                        <RiTwitterFill className='text-white h-8 w-8'/>
                         </div>
                         <div class="bg-red-500 h-12 w-12 flex justify-center items-center rounded-full text-white">
-                            <i class="fab fa-google text-3xl"></i>
+                            <RiGoogleFill className='text-white h-8 w-8'/>
                         </div>
                     </div>
                 </div>
