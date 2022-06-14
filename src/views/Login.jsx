@@ -1,15 +1,18 @@
-
+import { useNavigate } from 'react-router-dom';
 
 
 
 const Login = () => {
+    const navigate = useNavigate();
+
+    
     return (
     <div className='h-screen min-h-screen max-h-screen bg-gradient-to-b from-gray-900 via-green-900 to-gray-900 flex justify-center items-center p-4'>
         <div className='bg-white shadow w-full p-4 rounded shadow-2xl text-gray-700 sm:w-96'>
             <div className='flex justify-end'>
                 <img src='https://www.ns-logo.com/wp-content/uploads/2020/07/logo-icon-png-8.png' alt="" class="w-8"/> 
              </div>
-                <p class='text-center pb-2 text-3xl'>Hola!</p>
+                <p class='text-center pb-2 text-3xl'>Te damos la bienvenida</p>
                 <form action='#' class="my-5">
                 <div class="pb-5 text-sm text-center">
                     <p>No tienes cuenta? <div  className='text-blue-500'>Registrate!</div>
@@ -28,7 +31,7 @@ const Login = () => {
                 <div class="pb-5 text-right text-sm">
                     <div  class="text-blue-500">Problemas con la contraseña?</div>
                 </div>
-                    <button type="submit" class="bg-blue-500 p-2 w-full text-white rounded">Entrar
+                    <button type="submit" class="bg-blue-500 p-2 w-full text-white rounded" onClick={() => navigate("/home")}>Entrar
                     </button>
                 </form>
 
