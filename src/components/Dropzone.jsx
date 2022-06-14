@@ -31,7 +31,8 @@ const DropZone = () => {
                     </label>
                 </div>  
             </div>
-                <div className='flex  justify-items-start p-2 space-x-0.5 > * + * '>
+                    <p className='pt-5 pl-10 text-white'>Archivos</p>
+                <div className='flex  justify-items-start pt-5 pl-10 space-x-0.5 > * + * h-48'>
                     {selected_images}
                 </div>
         </div>
