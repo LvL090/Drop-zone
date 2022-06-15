@@ -4,7 +4,7 @@ import useDrivePicker from "react-google-drive-picker";
 
 function GoogleButton () {
 
-    const [openPicker, data, ] = useDrivePicker();
+    const [openPicker, data, authResponse ] = useDrivePicker();
     
     const handleOpenPicker = () => {
       openPicker({
