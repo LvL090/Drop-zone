@@ -4,6 +4,8 @@ Proyecto hecho integramente con React y Tailwind,se trata de un portal para carg
 
 ![Captura desde 2022-06-15 22-54-14](https://user-images.githubusercontent.com/99020950/173940605-575b8fd3-e2c6-446e-8f09-bfdd520b31d2.png)
 
+![Captura desde 2022-06-15 22-54-25](https://user-images.githubusercontent.com/99020950/173946476-049b7a8c-4569-4ce8-b978-d3fe25bfce4d.png)
+
 
 ## Descripción y guía de usuari@
 
