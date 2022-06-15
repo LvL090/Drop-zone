@@ -48,7 +48,10 @@ una vez puestas todas las dependencias, abriremos un terminal nuevo y abriremos 
 
 npm start
 
+# Revisión de código en Sonarcloud
+![Captura desde 2022-06-15 23-52-25](https://user-images.githubusercontent.com/99020950/173944014-2b605789-cc46-4498-99f3-aae90df4f99e.png)
 
 
 
-# Drop-zone
+
+
