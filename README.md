@@ -1,71 +1,54 @@
-# Getting Started with Create React App
+# Drop-zone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto hecho integramente con React y Tailwind,se trata de un portal para cargar archivos en la nuve.
 
-## Available Scripts
+![Captura desde 2022-06-15 22-54-14](https://user-images.githubusercontent.com/99020950/173940605-575b8fd3-e2c6-446e-8f09-bfdd520b31d2.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## Descripción y guía de usuari@
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Proyecto hecho integramente con React,se trata de un portal para cargar archivos en la nuve,al iniciar el portal saldrá una vista de login,no es necesario poner ninguna credencial,solamente con darle al botónde "Entrar",estaríamos en la vista del porta.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Consta de dos partes, la primera es ficticia donde al darle al Botón de "Subir Archivos" saldrán dos mennsajes correlativos que aparecerán haciendo Clic sobre el botón Aceptar y la segunda parte (botón Google-drive) es conectada a la Api de Google-drive.
 
-### `npm test`
+No es responsive, es decir solamente está pensado para poder trabajar desde escritorio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Instalación`
 
-### `npm run build`
+Entrar en el repositorio e ir a la parte "Code" en verder copiar el link de su interior, ir al editor de texto que estamos usando ,abrimos el terminal y escribimos git clone + link copiado, una vez clonado el repositorio, abrir la carpeta desde el editor de texto y ubicarse dentro de esta. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Dependencias`
 
-### `npm run eject`
+Antes de abrir el proyecto se necesitan las siguientes dependencias, estas tienen que ser escritas en el terminal dentro de la carpeta del proyecto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install --save react-dropzone
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm i react-google-drive-picker
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install react-icons --save
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install react-router-dom@6
 
-## Learn More
+npm install sweetalert --save
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+(https://tailwindcss.com/docs/guides/create-react-app)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+una vez puestas todas la dependencias se recomienda actualizar las npm antes de arrancar:
 
-### Code Splitting
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm update
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `Arranque`
 
-### Making a Progressive Web App
+una vez puestas todas las dependencias, abriremos un terminal nuevo y abriremos el localhost donde podremos trabajar en el portal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm start
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Drop-zone
