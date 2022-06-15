@@ -10,6 +10,13 @@ const showAlert = () => {
         text: "Parece que algo falla :(",
         icon: "error",
         button: "Aceptar",
+    }).then((value) => {
+        swal({
+            title: "Espera..",
+            text: "Se han conseguido subir :D",
+            icon: "success",
+            button: "Aceptar",
+        });
     });
 }
 
