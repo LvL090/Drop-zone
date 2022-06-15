@@ -12,9 +12,10 @@ const Login = () => {
     <div className='h-screen min-h-screen max-h-screen bg-gradient-to-b from-gray-900 via-green-900 to-gray-900 flex justify-center items-center p-4'>
         <div className='bg-white shadow w-full p-4 rounded shadow-2xl text-gray-700 bg-gradient-to-b from-white via-green-400 to-gray-300 sm:w-96'>
                 <div className='flex justify-end'>
-                    <img src='https://www.ns-logo.com/wp-content/uploads/2020/07/logo-icon-png-8.png' alt='' className='w-8'/> 
                 </div>
-                    <p className='text-center pb-2 text-3xl'>Te damos la bienvenida</p>
+                    <p className='text-center pb-2 text-3xl'>
+                        Te damos la bienvenida
+                    </p>
                 <form action='#' className='my-5'>
                     <div className='pb-5 text-sm text-center'>
                         <p>No tienes cuenta? 
