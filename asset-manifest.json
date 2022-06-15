@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Drop-zone/static/css/main.840d31bd.css",
+    "main.js": "/Drop-zone/static/js/main.e0be061a.js",
+    "index.html": "/Drop-zone/index.html",
+    "main.840d31bd.css.map": "/Drop-zone/static/css/main.840d31bd.css.map",
+    "main.e0be061a.js.map": "/Drop-zone/static/js/main.e0be061a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.840d31bd.css",
+    "static/js/main.e0be061a.js"
+  ]
+}
