@@ -13,7 +13,7 @@ Se trata de un portal para cargar archivos en la nuve,al iniciar el portal saldr
 
 Consta de dos partes, la primera es ficticia donde al darle al Botón de "Subir Archivos" saldrán dos mennsajes correlativos que aparecerán haciendo Clic sobre el botón Aceptar y la segunda parte (botón Google-drive) es conectada a la Api de Google-drive.
 
-No es responsive, es decir solamente está pensado para poder trabajar desde escritorio.
+No es responsive, es decir solamente está pensado para poder trabajar desde escritorio, el motivo es porque desde este proyecto, no se pueden adaptar las vistas y ventanas de Google Drive al móvil o tablet.
 
 ### `Instalación`
 
@@ -37,6 +37,12 @@ npm install sweetalert --save
 
 (https://tailwindcss.com/docs/guides/create-react-app)
 
+** en caso de que haya problema con la instalación de alguna dependencia al final de la línea poner --force, ejemplo:
+
+npm i react-google-drive-picker --force**
+
+
+
 una vez puestas todas la dependencias se recomienda actualizar las npm antes de arrancar:
 
 npm install
@@ -49,6 +55,16 @@ npm update
 una vez puestas todas las dependencias, abriremos un terminal nuevo y abriremos el localhost donde podremos trabajar en el portal:
 
 npm start
+
+** en caso de que haya error al compilar dentro del archivo "package.json" en el apartdo "scripts" sustituir por esto:
+
+"scripts": {
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+
 
 # Revisión de código en Sonarcloud
 ![Captura desde 2022-06-15 23-52-25](https://user-images.githubusercontent.com/99020950/173944014-2b605789-cc46-4498-99f3-aae90df4f99e.png)
