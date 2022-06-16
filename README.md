@@ -15,6 +15,8 @@ Consta de dos partes, la primera es ficticia donde al darle al Botón de "Subir 
 
 No es responsive, es decir solamente está pensado para poder trabajar desde escritorio, el motivo es porque desde este proyecto, no se pueden adaptar las vistas y ventanas de Google Drive al móvil o tablet.
 
+
+
 ### `Instalación`
 
 Entrar en el repositorio e ir a la parte "Code" en verder copiar el link de su interior, ir al editor de texto que estamos usando ,abrimos el terminal y escribimos git clone + link copiado, una vez clonado el repositorio, abrir la carpeta desde el editor de texto y ubicarse dentro de esta. 
@@ -50,20 +52,24 @@ npm install
 npm update
 
 
+
 ### `Arranque`
 
 una vez puestas todas las dependencias, abriremos un terminal nuevo y abriremos el localhost donde podremos trabajar en el portal:
 
 npm start
 
+
+
+
 ** en caso de que haya error al compilar dentro del archivo "package.json" en el apartdo "scripts" sustituir por esto:
+
 
 "scripts": {
     "start": "GENERATE_SOURCEMAP=false react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
+
+
 
 
 # Revisión de código en Sonarcloud
