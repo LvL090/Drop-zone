@@ -11,7 +11,7 @@ Proyecto hecho integramente con React y Tailwind,se trata de un portal para carg
 
 ## Descripción y guía de usuari@
 
-Se trata de un portal para cargar archivos en la nuve,al iniciar el portal saldrá una vista de login,no es necesario poner ninguna credencial,solamente con darle al botónde "Entrar",estaríamos en la vista del porta.
+Se trata de un portal para cargar archivos en la nube,al iniciar el portal saldrá una vista de login,no es necesario poner ninguna credencial,solamente con darle al botónde "Entrar",estaríamos en la vista del porta.
 
 Consta de dos partes, la primera es ficticia donde al darle al Botón de "Subir Archivos" saldrán dos mennsajes correlativos que aparecerán haciendo Clic sobre el botón Aceptar y la segunda parte (botón Google-drive) es conectada a la Api de Google-drive.
 
