@@ -2,16 +2,20 @@ import React from 'react';
 import { useEffect } from 'react';
 import useDrivePicker from 'react-google-drive-picker';
 
+
+
 function GoogleButton () {
 
-    const [openPicker, data, authResponse ] = useDrivePicker();
+    const [openPicker, data, ] = useDrivePicker();
     
+ 
+
     const handleOpenPicker = () => {
       openPicker({
-        clientId:'1021087990906-n43a6oaefq2huljf3mnmg2ujhpvan9cc.apps.googleusercontent.com',
-        developerKey:'AIzaSyC48GV6h05oTAR53bFSxd2TYXI6wJuhyOk',
+        clientId:'{ process.env.REACT_APP_API_CLIENTID }',
+        developerKey:'{ process.env.REACT_APP_API_GOOGLE }',
         viewId:'DOCS',
-        token:'ya29.a0ARrdaM_tx4eqmUR-cDnzJszk8QtOUeFM8npOZI47ImJ18vzdL7QF86oJVIbTTTK35-rXu37iEn2E-J6nyp-9rfZHzOEVfzXKmWlGkV4gUBe3fHzYCfszJ0njCkRYtUj1m6NDxwXxGc3ywNJmz-e0MMVWB9LI',
+        token:'{ process.env.REACT_APP_TOKEN }',
         showUploadView: true,
         showUploadFolders: true,
         supportDrives: true,
