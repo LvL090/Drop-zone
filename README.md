@@ -1,71 +1,83 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Drop-zone
+
+https://drop-zone-amber.vercel.app/
+
+Proyecto hecho integramente con React y Tailwind,se trata de un portal para cargar archivos en la nuve.
+
+![Captura desde 2022-06-15 22-54-14](https://user-images.githubusercontent.com/99020950/173940605-575b8fd3-e2c6-446e-8f09-bfdd520b31d2.png)
+
+![Captura desde 2022-06-15 22-54-25](https://user-images.githubusercontent.com/99020950/173946476-049b7a8c-4569-4ce8-b978-d3fe25bfce4d.png)
+
+
+## Descripción y guía de usuari@
+
+Se trata de un portal para cargar archivos en la nube,al iniciar el portal saldrá una vista de login,no es necesario poner ninguna credencial,solamente con darle al botónde "Entrar",estaríamos en la vista del porta.
+
+Consta de dos partes, la primera es ficticia donde al darle al Botón de "Subir Archivos" saldrán dos mennsajes correlativos que aparecerán haciendo Clic sobre el botón Aceptar y la segunda parte (botón Google-drive) es conectada a la Api de Google-drive.
+
+No es responsive, es decir solamente está pensado para poder trabajar desde escritorio, el motivo es porque desde este proyecto, no se pueden adaptar las vistas y ventanas de Google Drive al móvil o tablet.
+
+
+
+### `Instalación`
+
+Entrar en el repositorio e ir a la parte "Code" en verder copiar el link de su interior, ir al editor de texto que estamos usando ,abrimos el terminal y escribimos git clone + link copiado, una vez clonado el repositorio, abrir la carpeta desde el editor de texto y ubicarse dentro de esta. 
+
+
+
+### `Dependencias`
+
+Antes de abrir el proyecto se necesitan las siguientes dependencias, estas tienen que ser escritas en el terminal dentro de la carpeta del proyecto:
+
+npm install --save react-dropzone
+
+npm i react-google-drive-picker
+
+npm install react-icons --save
+
+npm install react-router-dom@6
+
+npm install sweetalert --save
+
+(https://tailwindcss.com/docs/guides/create-react-app)
+
+** en caso de que haya problema con la instalación de alguna dependencia al final de la línea poner --force, ejemplo:
+
+npm i react-google-drive-picker --force**
+
+
+
+una vez puestas todas la dependencias se recomienda actualizar las npm antes de arrancar:
+
+npm install
+
+npm update
+
+
+
+### `Arranque`
+
+una vez puestas todas las dependencias, abriremos un terminal nuevo y abriremos el localhost donde podremos trabajar en el portal:
+
+npm start
+
+
+
+
+** en caso de que haya error al compilar dentro del archivo "package.json" en el apartdo "scripts" sustituir por esto:
+
+
+"scripts": {
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
+  },
+
+
+
+
+# Revisión de código en Sonarcloud
+![Captura desde 2022-06-15 23-52-25](https://user-images.githubusercontent.com/99020950/173944014-2b605789-cc46-4498-99f3-aae90df4f99e.png)
+
+
+
+
+
