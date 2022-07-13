@@ -2,7 +2,7 @@
 
 https://drop-zone-amber.vercel.app/
 
-Proyecto hecho integramente con React y Tailwind,se trata de un portal para cargar archivos en la nuve.
+Proyecto hecho integramente con React y Tailwind,se trata de un portal para cargar archivos en la nube.
 
 ![Captura desde 2022-06-15 22-54-14](https://user-images.githubusercontent.com/99020950/173940605-575b8fd3-e2c6-446e-8f09-bfdd520b31d2.png)
 
